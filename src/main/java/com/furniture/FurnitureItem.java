@@ -84,17 +84,19 @@ public class FurnitureItem {
         } else {
             discountedPrice = (float) price;
         }
+        System.out.println("Discounted Price is : $" + discountedPrice);
         return discountedPrice;
+
 
     }
 
     void displayDetails() {
-        System.out.println(furnitureCode);
-        System.out.println(furnitureType);
-        System.out.println(gradeOfFurniture);
-        System.out.println(color);
-        System.out.println(furnitureUsage);
-        System.out.println(price);
+        System.out.println("Furniture code : " + furnitureCode);
+        System.out.println("Furniture Type : " + furnitureType);
+        System.out.println("Grade Of Furniture : " + gradeOfFurniture);
+        System.out.println("Color :" + color);
+        System.out.println("Furniture Usage :" + furnitureUsage);
+        System.out.println("Price : " + price);
 
     }
 

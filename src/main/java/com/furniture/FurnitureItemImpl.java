@@ -30,6 +30,7 @@ public class FurnitureItemImpl {
 
 
         furnitureItem.displayDetails();
+        furnitureItem.calculateDiscount();
 
     }
 
